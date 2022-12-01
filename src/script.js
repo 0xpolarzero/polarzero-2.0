@@ -1,10 +1,9 @@
-import './style.css';
 import './style.scss';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import vertexShader from './shaders/vertex.vs.glsl';
 import fragmentShader from './shaders/fragment.fs.glsl';
-
+import '@fortawesome/fontawesome-free/js/all.js';
 /**
  * Base
  */
