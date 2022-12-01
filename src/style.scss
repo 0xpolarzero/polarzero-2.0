@@ -114,7 +114,6 @@ body {
     content: '​'; // zero-width space to retain element height
     position: relative;
     top: 30%;
-
     display: inline-block;
     padding-right: 3px;
     padding-right: calc(3px + 0.1vw);
@@ -124,8 +123,8 @@ body {
     white-space: nowrap;
     animation: typed #{$durTotal + 's'} linear 1s infinite,
       beam-blink 1s infinite;
-
     z-index: 2;
+    pointer-events: none;
   }
 
   //   &::before {
